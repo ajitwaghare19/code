@@ -1,0 +1,26 @@
+body {
+  background-color: dimgray;
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox {
+  min-width: 1000px;
+  min-height: auto;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  border: thick double #2d034b;
+  background-color: darkgray;
+}
+.box {
+  align-content: center;
+  text-align: center;
+  font-family: roboto;
+  font-size: 1em;
+  font-weight: 100em;
+  background: url(/img/bg_flexbox.jpg);
+  width: 500px;
+  height: 250px;
+}
